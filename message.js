@@ -14,4 +14,6 @@ const vegeSelect = ranGen(dataPool.vege);
 const meatSelect = ranGen(dataPool.meat);
 const carbSelect = ranGen(dataPool.carb);
 
-console.log(`${vegeSelect}, ${meatSelect}, ${carbSelect}`);
+let menuRobot = `${vegeSelect}, ${meatSelect}, ${carbSelect}`;
+
+console.log (menuRobot);
